@@ -3,7 +3,7 @@ var app = express();
 
 // web.app
 app.use(express.static(__dirname + '/html/'));
-app.listen(8080, function() {
+app.listen(process.env.PORT || 8080, function() {
 	console.log('server starting...');
 });
 /*
