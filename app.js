@@ -6,7 +6,7 @@ app.use(express.static(__dirname + '/html/'));
 app.listen(8080, function() {
 	console.log('server starting...');
 });
-
+/*
 // socket.io
 var server = require("http").createServer().listen(8081);
 var io = require("socket.io").listen(server);
@@ -38,3 +38,4 @@ io.sockets.on("connection", function(socket) {
     }
   });
 });
+*/
