@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja" class="m100">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Quiz Panel</title>
+    <link href="js/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/vendor/socket.io-1.3.4.js"></script>
+    <style type="text/css">
+    <!--
+    .m100 { height: 100%; border-sizing: border-box; }
+    .m25 { height: 25%; border-sizing: border-box; }
+    -->
+    </style>
+  </head>
+  <body class="m100">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Quiz Panel</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container m100" style="padding-top: 60px;">
+      <div id="questionRegion" class="m100"></div>
+    </div>
+
+  </body>
+  <script type="text/javascript" src="js/vendor/require.min.js" data-main="js/index.js"></script>  
+</html>

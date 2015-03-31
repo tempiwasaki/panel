@@ -1,15 +1,15 @@
 {
-  "name": "panel",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node app"
-  },
-  "engines": {
-    "node": "0.10.x",
-    "npm": "1.2.x"
-  },
-  "dependencies": {
-    "express": "3.1.x"
-  }
+	"name": "QuizPanel",
+	"version": "0.0.1",
+	"private": true,
+
+	"engines": {
+		"node": "0.10.x",
+		"npm": "1.2.x"
+	},
+
+	"dependencies" : {
+		"express" : "3.1.x",
+		"socket.io" : "*"
+	}
 }
